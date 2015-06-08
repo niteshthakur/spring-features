@@ -60,7 +60,7 @@
 				  <failOnMissingWebXml>false</failOnMissingWebXml>
 					<webResources>
 						<resource>
-							<directory>/Users/nitesh/Work/workspace/testWS/spring/target/</directory>
+							<directory>${basedir}/target/</directory>
 							<!-- override the destination directory for this resource -->
 							<targetPath>WEB-INF/lib</targetPath>
 							<includes>
